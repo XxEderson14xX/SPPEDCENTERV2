@@ -1,0 +1,21 @@
+/* Estilos complementarios al Precision Ops Design System (v12) */
+body {
+    background-color: #0B0E14;
+    color: #E5E7EB;
+}
+
+/* Scrollbar personalizado para los paneles de auditoría y modales */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #0B0E14;
+}
+::-webkit-scrollbar-thumb {
+    background: #1F2937;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #374151;
+}
