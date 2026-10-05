@@ -4,9 +4,8 @@
 // La anon key es pública por diseño de Supabase: la seguridad real es RLS.
 // NUNCA pongas aquí la service_role key.
 // ============================================================
-export const SUPABASE_URL = 'https://TU-PROYECTO.supabase.co';
-export const SUPABASE_ANON_KEY = 'TU_ANON_KEY';
-
+export const SUPABASE_URL = 'https://qchtyxzgzgotjosqmyyq.supabase.co';
+export const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFjaHR5eHpnemdvdGpvc3FteXlxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEwNzczMTIsImV4cCI6MjEwNjY1MzMxMn0.DFSq8H8IwuN8qC6rOZx3XZL-VSBXbvo_ph4j-MZD04k';
 export const TABLAS = {
   perfiles: 'perfiles',
   clientes: 'clientes',
